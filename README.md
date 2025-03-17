@@ -37,6 +37,8 @@ To run this project locally:
 
 - **Project Usage**: Add your own API-Id Value by adding the file envFileByteCoinApp.swift in the project in the following format.
     ```bash
+    // envFileByteCoinApp.swift
+
     import Foundation
 
     struct envFileByteCoinApp {
