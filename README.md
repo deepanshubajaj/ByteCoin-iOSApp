@@ -35,6 +35,15 @@ To run this project locally:
   
 - **CoinAPI Documentation**: You can refer to the full documentation on using the API to get market data [here](https://docs.coinapi.io/).
 
+- **Project Usage**: Add your own API-Id Value by adding the file envFileByteCoinApp.swift in the project in the following format.
+    ```bash
+    import Foundation
+
+    struct envFileByteCoinApp {
+        static let apiIdValue = "Your_Own_API_Value"
+    }
+    ```
+
 ## App Look:
 
 <p align="center">
